@@ -1,0 +1,50 @@
+import type { MetadataRoute } from 'next';
+
+const baseUrl = 'https://latinum.online';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
+  return [
+    { url: `${baseUrl}/`, lastModified: now },
+    { url: `${baseUrl}/datenschutz`, lastModified: now },
+    { url: `${baseUrl}/formenlehre`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/a-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/adjektive-adverbien`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/e-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/i-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/konsonantische-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/nomen`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/o-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/pronomina`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/u-deklination`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/deklinationen/zahlwoerter`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/deponentia`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/genera-verbi`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/gerundium-gerundivum`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/infinitive`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/modi`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/partizipien`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/staemme`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/tempora`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/unregelmaessige-verben`, lastModified: now },
+    { url: `${baseUrl}/formenlehre/konjugationen/verbklassen`, lastModified: now },
+    { url: `${baseUrl}/impressum`, lastModified: now },
+    { url: `${baseUrl}/kontakt`, lastModified: now },
+    { url: `${baseUrl}/satzlehre`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/nomen-im-satz`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/nomen-im-satz/kasusfunktionen`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/nomen-im-satz/lokalkonstruktionen`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/nomen-im-satz/praedikatsakkusativ`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/nomen-im-satz/satzglieder`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/aci-nci-pc-abl-abs`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/gerundium-gerundiv-konstruktionen`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/indirekte-rede`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/modusgebrauch`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/nebensaetze`, lastModified: now },
+    { url: `${baseUrl}/satzlehre/verbum-im-satz/tempusgebrauch`, lastModified: now },
+    { url: `${baseUrl}/ueber-latinum-online`, lastModified: now },
+  ];
+}
