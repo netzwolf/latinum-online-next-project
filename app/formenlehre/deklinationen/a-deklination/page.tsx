@@ -5,7 +5,7 @@ export default function Page() {
         Latinum.online / Formenlehre / Deklinationen / a-Deklination
       </div>
 
-      <h1>a-Deklination WOLF</h1>
+      <h1>a-Deklination WOLF_Herbert</h1>
 
       {/* 1. Überblick */}
       <section className="card">
